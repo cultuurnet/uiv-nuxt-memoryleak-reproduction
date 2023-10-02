@@ -2,7 +2,6 @@ import { createVuetify } from "vuetify";
 import { nl } from "vuetify/locale";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  if (process.server) return;
   const vuetify = createVuetify({
     ssr: true,
     locale: {
