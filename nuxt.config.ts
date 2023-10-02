@@ -32,7 +32,7 @@ export default defineNuxtConfig({
   } satisfies NuxtConfig["i18n"],
   css: ["vuetify/lib/styles/main.sass"],
   build: {
-    transpile: ["@apollo/client", "@vue/apollo-composable", "vuetify"],
+    transpile: ["@apollo/client", "@vue/apollo-composable", "vuetify", "tslib"],
   },
   hooks: {
     // enable tree shaking
@@ -55,9 +55,9 @@ export default defineNuxtConfig({
       __DEV__: isDev.toString(),
       "process.env.DEBUG": false,
     },
-    // ssr: {
-    //   noExternal: ["vuetify"],
-    // },
+    ssr: {
+      noExternal: ["vuetify"],
+    },
     css: {
       preprocessorOptions: {
         scss: {

@@ -1,11 +1,9 @@
 <template>
   <div>
     <header>HEADER</header>
-    <v-app>
-      <v-main>
+    <main>
         <slot />
-      </v-main>
-    </v-app>
+    </main>
 
     <footer>FOOTER</footer>
   </div>
