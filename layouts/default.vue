@@ -1,7 +1,12 @@
 <template>
   <div>
     <header>HEADER</header>
-    <slot />
+    <v-app>
+      <v-main>
+        <slot />
+      </v-main>
+    </v-app>
+
     <footer>FOOTER</footer>
   </div>
 </template>
