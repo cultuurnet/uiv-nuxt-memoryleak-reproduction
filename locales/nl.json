@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "test": {
+      "title": "Testpagina",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, velit? Dignissimos animi ad totam fugiat facere, reiciendis iure soluta sed suscipit itaque, voluptatum nesciunt porro tempora quisquam. Ut, nisi rerum."
+    },
+    "promise": {
+      "hello": "Hallo {name}"
+    }
+  }
+}

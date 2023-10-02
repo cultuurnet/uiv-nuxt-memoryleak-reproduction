@@ -1,0 +1,28 @@
+{
+  "possibleTypes": {
+    "DetailPages": ["Article", "Contest", "Page", "Series"],
+    "EventOrLocation": ["Event", "Location"],
+    "PageComponents": [
+      "AutomatedContentList",
+      "Banner",
+      "Component",
+      "ContentSlider",
+      "ContentTeasers",
+      "Cta",
+      "Divider",
+      "Embed",
+      "EventQueryBlock",
+      "EventSlider",
+      "EventTeaser",
+      "Hero",
+      "Images",
+      "LocationTeaser",
+      "OrganizerTeaser",
+      "ProductionTeaser",
+      "SeriesSlider",
+      "Spotlight",
+      "Streamer",
+      "Text"
+    ]
+  }
+}
